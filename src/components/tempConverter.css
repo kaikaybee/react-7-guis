@@ -1,0 +1,36 @@
+.tempConv_container {
+  margin: 30px auto 0px;
+  padding: 5px;
+  display: inline-block;
+  border: solid;
+}
+
+.tempConv_content {
+  margin: 10px 0px 5px;
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  white-space: nowrap;
+}
+
+.tempConv_title {
+  margin: 5px;
+}
+
+.tempConv_temperature {
+  margin: 0px 5px;
+  text-align: center;
+  height: 20px;
+  line-height: 20px;
+  width: 80px;
+  resize: none;
+  /* caret-color: transparent; */
+  border-radius: 5px;
+  border-color: black;
+}
+
+.tempConv_text {
+  margin: 0px 5px;
+  height: 20px;
+  line-height: 20px;
+}

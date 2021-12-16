@@ -1,0 +1,37 @@
+.counter_container {
+  margin: 30px auto 0px;
+  padding: 5px;
+  display: inline-block;
+  /* width: 300px; */
+  border: solid;
+}
+
+.counter_content {
+  margin: 10px 0px 5px;
+  display: flex;
+  justify-content: center;
+}
+
+.counter_title {
+  margin: 5px;
+}
+
+.counter_text {
+  margin: 0px 5px;
+  text-align: center;
+  height: 20px;
+  line-height: 20px;
+  width: 80px;
+  resize: none;
+  caret-color: transparent;
+  border-radius: 5px;
+  border-color: black;
+}
+
+.counter_button {
+  margin: 0px 5px;
+  padding: 0px 10px;
+  width: 80px;
+  border-radius: 5px;
+  border-color: black;
+}
