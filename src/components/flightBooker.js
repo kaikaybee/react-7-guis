@@ -11,7 +11,7 @@ class FlightBooker extends React.Component {
     return(
       <div className="flightBooker_container">
         <div className="flightBooker_title">
-          Flight Booker
+          Flight Bookerr
         </div>
         <div className="flightBooker_content">
           <div className="flightBooker_flightType"></div>
