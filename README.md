@@ -1,6 +1,8 @@
 # 7 GUI's Exercise in React
 Based off exercises from [this](https://eugenkiss.github.io/7guis/tasks/) website
 
+Built from the ground up with Webpack
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
