@@ -13,8 +13,8 @@ module.exports = {
   output: {
     filename: 'bundle.js',
     path: path.resolve(__dirname, 'dist'),
-    // clean: true,
-    publicPath: '/', // Will this make dev-tools work?
+    clean: true,
+    publicPath: '/', // Not needed for dev tools to work, why should I keep it?
   },
   module: {
     rules: [
