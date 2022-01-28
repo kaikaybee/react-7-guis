@@ -13,26 +13,36 @@ class TempConverter extends React.Component {
   }
 
   handleChange(event) {
-    this.setState({[event.target.name]: event.target.value});
-    if (event.target.value === '' || isNaN(event.target.value)) {
-      return;
-    }
-    
-    let temp;
-    let ans;
-    
-    if (event.target.name === 'fahrenheit' ) {
-      temp = 'celsius'
-      ans = (event.target.value - 32) * (5/9);
+    // update state
+    this.setState({[event.target.name]: event.target.value}); 
+
+    // select temperatures
+    let tempA = event.target.name;
+    let tempB;
+
+    if (tempA === 'fahrenheit') {
+      tempB = 'celsius';
     } else {
-      temp = 'fahrenheit'
-      ans = event.target.value * (9/5) + 32;
+      tempB = 'fahrenheit';
     }
 
-    ans = ans.toLocaleString('en-US', {
-      maximumFractionDigits: 2,
-    });
-    this.setState({[temp]: ans});
+    // calculate and set tempB value
+    let ans;
+    if (event.target.value === '' || isNaN(event.target.value)) {
+      ans = '';
+    } else {
+      if (tempA === 'fahrenheit') {
+        ans = (event.target.value - 32) * (5/9);
+      }
+      else {
+        ans = event.target.value * (9/5) + 32;
+      }
+      ans = ans.toLocaleString('en-US', {
+        maximumFractionDigits: 2,
+      });
+    }
+
+    this.setState({[tempB]: ans});    
   }
 
   render() {
