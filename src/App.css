@@ -16,12 +16,10 @@ h1 {
   padding: 5px;
   display: inline-block;
   border: solid;
-  border-color: blue;
 }
 
 .gui_title {
   margin: 5px;
-  color:red;
 }
 
 .gui_content {
