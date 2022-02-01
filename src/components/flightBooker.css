@@ -1,16 +1,4 @@
-.flightBooker_container {
-  margin: 30px auto 0px;
-  padding: 5px;
-  display: inline-block;
-  border: solid;
-}
-
-.flightBooker_title {
-  margin: 5px;
-}
-
 .flightBooker_content {
-  margin: 10px 0px 5px;
   display: flex;
   justify-content: center;
   align-items: baseline;

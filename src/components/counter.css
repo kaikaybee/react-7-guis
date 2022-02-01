@@ -1,19 +1,6 @@
-.counter_container {
-  margin: 30px auto 0px;
-  padding: 5px;
-  display: inline-block;
-  /* width: 300px; */
-  border: solid;
-}
-
 .counter_content {
-  margin: 10px 0px 5px;
   display: flex;
   justify-content: center;
-}
-
-.counter_title {
-  margin: 5px;
 }
 
 .counter_text {

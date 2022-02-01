@@ -5,6 +5,11 @@ module.exports = {
   mode: 'development',
   entry: './src/index.js',
   devtool: 'inline-source-map',
+  devServer: {
+    // need the following two to disable live reload
+    hot: false,
+    liveReload: false,
+  },
   plugins: [
     new HtmlWebpackPlugin({
       template: './src/index.html',

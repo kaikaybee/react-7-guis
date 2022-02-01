@@ -17,11 +17,11 @@ class Counter extends React.Component {
 
   render() {
     return(
-      <div className="counter_container">
-        <div className="counter_title">
+      <div className="gui_container">
+        <div className="gui_title">
           Counter
         </div>
-        <div className="counter_content">
+        <div className="gui_content counter_content">
           <textarea className="counter_text" readOnly={true} value={this.state.count}></textarea>
           <button className="counter_button" onClick={() => this.increaseCount()}>Count</button>
         </div>

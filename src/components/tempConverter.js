@@ -47,11 +47,11 @@ class TempConverter extends React.Component {
 
   render() {
     return(
-      <div className="tempConv_container">
-        <div className="tempConv_title">
+      <div className="gui_container">
+        <div className="gui_title">
           Temp Converter
         </div>
-        <div className="tempConv_content">
+        <div className="gui_content tempConv_content">
           <textarea className="tempConv_temperature" name="fahrenheit" value={this.state.fahrenheit} onChange={this.handleChange} />
           <div className="tempConv_text">Fahrenheit =</div>
           <textarea className="tempConv_temperature" name="celsius" value={this.state.celsius} onChange={this.handleChange}></textarea>

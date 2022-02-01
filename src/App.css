@@ -1,3 +1,7 @@
+body {
+  font-family: Ubuntu, sans-serif;
+}
+
 h1 {
   margin-bottom: 0px;
 }
@@ -5,4 +9,21 @@ h1 {
 .App {
   text-align: center;
   margin: 0px 25%;
+}
+
+.gui_container {
+  margin: 30px auto 0px;
+  padding: 5px;
+  display: inline-block;
+  border: solid;
+  border-color: blue;
+}
+
+.gui_title {
+  margin: 5px;
+  color:red;
+}
+
+.gui_content {
+  margin: 10px 0px 5px;
 }

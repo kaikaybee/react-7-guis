@@ -1,20 +1,8 @@
-.tempConv_container {
-  margin: 30px auto 0px;
-  padding: 5px;
-  display: inline-block;
-  border: solid;
-}
-
 .tempConv_content {
-  margin: 10px 0px 5px;
   display: flex;
   justify-content: center;
   align-items: baseline;
   white-space: nowrap;
-}
-
-.tempConv_title {
-  margin: 5px;
 }
 
 .tempConv_temperature {

@@ -9,11 +9,11 @@ class FlightBooker extends React.Component {
 
   render() {
     return(
-      <div className="flightBooker_container">
-        <div className="flightBooker_title">
+      <div className="gui_container">
+        <div className="gui_title">
           Flight Bookerr
         </div>
-        <div className="flightBooker_content">
+        <div className="gui_content flightBooker_content">
           <div className="flightBooker_flightType"></div>
           <div className="flightBooker_startDate"></div>
           <div className="flightBooker_returnDate"></div>

@@ -1,7 +1,7 @@
 # 7 GUI's Exercise in React
 Based off exercises from [this](https://eugenkiss.github.io/7guis/tasks/) website
 
-Built from the ground up with Webpack
+Built with Webpack
 
 ## Available Scripts
 
@@ -16,4 +16,4 @@ Builds the app for production to the `dist` folder.\
 Runs the app in the development mode.\
 Open [http://localhost:8080](http://localhost:8080) to view it in the browser.
 
-The page will reload if you make edits.\
+You will need to reload the page if you make edits.\
