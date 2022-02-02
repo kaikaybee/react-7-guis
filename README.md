@@ -1,7 +1,7 @@
 # 7 GUI's Exercise in React
 Based off exercises from eugenkiss's GUI [exercise](https://eugenkiss.github.io/7guis/tasks/)
 
-Built React and Webpack
+Built with React and Webpack
 
 ## Available Scripts
 
